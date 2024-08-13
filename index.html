@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hackinglk</title>
+</head>
+<body>
+  <!-- div.class001 -->
+  <div class="class001"></div> 
+   <!--h1#ido1.class002  -->
+  <h1 id="id01" class="class002"></h1>
+  <p class="class001 class002"></p>
+  <!-- multiple classes -->
+
+  <!-- p{heidjjdhdbdjdbd} -->
+  <p>hi guys welcpme back</p>
+
+
+  <!-- sec -->
+  <section>
+    <!-- hdr -->
+    <header>
+      <!-- ftr -->
+      <footer></footer>
+    </header>
+  </section>
+
+  <!-- sibling objects(div+sec+h1+p) -->
+  <div></div>
+  <sec></sec>
+  <h1></h1>
+  <p></p>
+
+  <!-- div>sec>h1>span -->
+  <div>
+    <sec>
+      <h1><span></span></h1>
+    </sec>
+  </div>
+
+  <!-- div+div>p>span>em>bq -->
+  <div></div>
+  <div>
+    <p>
+      <span>
+        <em>
+          <blockquote></blockquote>
+        </em>
+      </span>
+    </p>
+  </div>
+
+  <!-- div+div>p>span>em^bq -->
+  <div></div>
+  <div>
+    <p>
+      <span><em></em></span>
+      <blockquote></blockquote>
+    </p>
+  </div>
+
+  <!-- div+div>p>span>em^^bq -->
+  <div></div>
+  <div>
+    <p><span><em></em></span></p>
+    <blockquote></blockquote>
+  </div>
+  <!-- ^-climp up function -->
+
+  <!-- div+div>(p>span>em)+bq       without using ^,we can use this also to get the above code(grouping method) -->
+  <div></div>
+  <div>
+    <p><span><em></em></span></p>
+    <blockquote></blockquote>
+  </div>
+
+  <div>
+    <ul>
+      <li></li>
+    </ul>
+  </div>
+
+  <!-- div>ul>li{item$}*6 -->
+  <div>
+    <ul>
+      <li>item1</li>
+      <li>item2</li>
+      <li>item3</li>
+      <li>item4</li>
+      <li>item5</li>
+      <li>item6</li>
+    </ul>
+  </div>
+
+  <!-- div>ul>li.class$1230{item$20}*4 -->
+  <div>
+    <ul>
+      <li class="class11230">item120</li>
+      <li class="class21230">item220</li>
+      <li class="class31230">item320</li>
+      <li class="class41230">item420</li>
+    </ul>
+  </div>
+</body>
+</html>
